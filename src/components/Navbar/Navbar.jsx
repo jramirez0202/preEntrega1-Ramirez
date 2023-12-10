@@ -8,7 +8,6 @@ import logo from '../../assets/images/navbarLogo/profile.jpeg';
 const Navbar = () => {
   const [isDropdownOpen, setIsDropdownOpen] = useState(false);
   const { t } = useTranslation();
-
   const toggleDropdown = () => {
     setIsDropdownOpen(!isDropdownOpen);
   };
